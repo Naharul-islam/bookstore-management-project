@@ -1,0 +1,79 @@
+# bookstore-management-project
+bookstore-management-project
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+</head>
+<body>
+
+    <!-- container (Where all the contain are available) -->
+    <div class="container">
+        <div  class="header">
+          <h2>Bookstore</h2>
+        </div>
+
+        <!-- Content-1 -->
+        <div class="content-1">
+
+            <!-- search and new book  button -->
+            <div class="top-bar"> 
+                <input type="text" placeholder="Search..">
+                <button class="search-btn">Search</button>
+                <button id="newBookBtn"><a href="http://127.0.0.1:5500/index2.html" target="_blank">New Book</a></button>
+            </div>
+
+            <!-- table with button (Details, Update, Delete) -->
+            <table class="table1">
+                
+              <th>ID</th>
+              <th>Title</th>
+              <th>Author</th>
+        
+              <tr><td>1</td> <td>To Kill a Mockingbird</td> <td>Harper Lee</td> <td><button class="bookDetailsBtn">Details</button> <button class="bookUpdateBtn">Update</button> <button class="delete-btn" >Delete</button></td></tr>
+
+              <tr><td>2</td> <td>1984</td> <td>George Orwel</td><td><button class="bookDetailsBtn">Details</button> <button class="bookUpdateBtn">Update</button> <button class="delete-btn" >Delete</button></td></tr>
+
+              <tr><td>3</td> <td>Pride and Prejudice</td><td> Jane Austen</td> <td><button class="bookDetailsBtn">Details</button> <button class="bookUpdateBtn">Update</button> <button class="delete-btn" >Delete</button></td></tr>
+
+              <tr><td>4</td> <td>The Lord of the Rings</td> <td> J.R.R. Tolkien</td> <td><button class="bookDetailsBtn">Details</button> <button class="bookUpdateBtn">Update</button> <button class="delete-btn" >Delete</button></td></tr>
+
+              <tr><td>5</td> <td>Harry Potter and the Philosopher's Stone</td> <td>J.K. Rowling</td> <td><button class="bookDetailsBtn">Details</button> <button class="bookUpdateBtn">Update</button> <button class="delete-btn" >Delete</button></td></tr>
+
+              <tr><td>6</td> <td>The Great Gatsby</td> <td>F. Scott Fitzgerald</td> <td><button class="bookDetailsBtn">Details</button> <button class="bookUpdateBtn">Update</button> <button class="delete-btn" >Delete</button></td></tr>
+
+              <tr><td>7</td> <td>The Alchemist</td> <td>Paulo Coelho
+
+              </td> <td><button class="bookDetailsBtn">Details</button> <button class="bookUpdateBtn">Update</button> <button class="delete-btn" >Delete</button></td></tr>
+
+              <tr><td>8</td> <td>The Catcher in the Rye</td> <td> J.D. Salinger</td> <td><button class="bookDetailsBtn">Details</button> <button class="bookUpdateBtn">Update</button> <button class="delete-btn" >Delete</button></td></tr>
+
+              <tr><td>9</td> <td>One Hundred Years of Solitude</td> <td> Gabriel García Márquez</td> <td><button class="bookDetailsBtn">Details</button> <button class="bookUpdateBtn">Update</button> <button class="delete-btn" >Delete</button></td></tr>
+
+              <tr><td>10</td> <td>The Diary of a Young Girl</td> <td>Anne Frank</td> <td><button class="bookDetailsBtn">Details</button> <button class="bookUpdateBtn">Update</button> <button class="delete-btn" >Delete</button></td></tr>
+           </table>
+
+           <!-- Pagination(page shortcut) button  -->
+           <div style="margin: 20px;">
+              <button class="btn"> <i class="fas fa-chevron-left"></i></button>
+              <button class="btn">1</button>
+              <button class="btn">2</button>
+              <button class="btn">3</button>
+              <button class="btn">4</button>
+              <button class="btn">5</button>
+              <button class="btn">6</button>
+              <button class="btn">7</button>
+              <button class="btn">...</button>
+              <button class="btn">20</button>
+              <button class="btn"> <i class="fas fa-chevron-right"></i></button>
+            </div>        
+        </div>
+    </div>
+
+</body>
+</html>
